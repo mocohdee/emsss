@@ -73,7 +73,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                     </div>
 
                                     <div class="form-group">
-                                        <label >Staring Date :</label>
+                                        <label >Starting Date :</label>
                                         <input type="date" class="form-control"  value="<?php echo $startdate; ?>"  name="startDate" >
                                         <?php echo $startdateErr; ?>
                                     </div>
